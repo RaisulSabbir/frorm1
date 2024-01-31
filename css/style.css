@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    background-image:url(../image/s10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 70%;
+    height: 100vh; 
+    position: relative;
+}
+
+.container{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+   
+}
+/* Nabbar start */
+.navbar{
+
+}
+.navbar .flex1{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    padding-top: 20px;
+}
+.menu ul{
+   list-style: none; 
+}
+.menu ul li{
+    display: inline;
+    padding: 20px 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.menu ul li a:hover{
+    color: #55deff;
+}
+
+
+/* Nabbar end */
+
+/* form start */
+.head{
+    
+}
+
+.head .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all form{
+    
+}
+.head .all{
+    position: absolute;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 8px 10px 5px rgb(0 0 0 / 21%);
+    width: 450px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px 30px 30px;
+}
+.head .all h1{
+font-size: 36px ;
+font-weight: 800;
+text-align: center;
+font-family: 'Playfair Display';
+
+} 
+.all .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 25px 0;
+    position: relative;
+}
+.all .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(243, 243, 243);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    padding: 20px 20px;
+    font-family: 'Poppins';
+    box-shadow: 0 0 10 gray;
+}
+
+.all .input-box input::placeholder{
+    color: #fff;
+    
+}
+.all .input-box i{
+     color: white;
+     position: absolute;
+     right: 20px;
+     top: 50%;
+     transform: translateY(-50%);
+     font-size: 20px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-family: 'Poppins';
+    margin: -10px 0 10px ;
+}
+
+.check label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+.check a{
+    text-decoration: none;
+    color: #fff;
+}
+.check a:hover{
+    color: rgb(72, 212, 255);
+}
+.btn{
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 16px 0;
+    border-radius: 50px;
+    color: #030e30;
+    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: #1a97da;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+.register{
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+}
+
+.register a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+.register a:hover{
+   color: #1a97da;
+}
+/* Form End */
